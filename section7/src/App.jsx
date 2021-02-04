@@ -48,6 +48,8 @@ export const App = () => {
         todoText={todoText}
         onChange={onChangeTodoText}
         onClick={onClickAdd}
+        disabled={incompleteTodos.length >= 5}
+        todos={incompleteTodos}
       />
       <IncompleteTodos
         todos={incompleteTodos}

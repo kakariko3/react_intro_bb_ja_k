@@ -28,10 +28,14 @@ li {
 .input-area {
   background-color: #c1ffff;
   width: 400px;
-  height: 30px;
+  height: auto;
   padding: 8px;
   margin: 8px;
   border-radius: 8px;
+}
+
+.input-error {
+  color: red;
 }
 
 .incomplete-area {
